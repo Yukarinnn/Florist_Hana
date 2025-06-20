@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>お問い合わせ｜florist Hana</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+<link href="../css/reset.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body class="contact_page">
+	<header>
+		<div class="inner">
+		<h1><a href="../index.html"><img src="../img/logo.png" alt="florist Hana"></a></h1>
+		<div class="sp_nav_btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="../index.html#concept">concept</a></li>
+				<li><a href="../index.html#items">items</a></li>
+				<li><a href="../index.html#wedding">wedding</a></li>
+				<li><a href="../index.html#shop_info">shopinfo</a></li>
+				<li><a href="index.html">contact</a></li>
+				<li><a href="#"><img src="../img/icon_insta.png" alt="florist HanaのInstagramアカウントへ"></a></li>
+			</ul>
+		</nav>
+		</div><!--/.inner-->
+	</header>
+	<main>
+		<section>
+			<h2>CONTACT<br>
+			<span>お問い合わせ</span></h2>
+			<p>お問い合わせやご用件は下記のお問い合わせフォームに必要事項をご記入の上、送信ボタンを押してください。担当者より2営業日以内にご連絡させて頂きます。お急ぎの方は下記番号までお電話下さい。</p>
+			<div class="tel_box">
+				<p>お問い合わせ・ご注文</p>
+				<address>TEL:<a href="tel:0664596241">06-6459-6241</a></address>
+				<p>営業時間 / 10:00〜20:00</p>
+			</div><!--/.tel_box-->
+			<p><span class="must">必須</span>マークの項目は入力必須です。</p>
+			<form action="post" method="#">
+			<dl>
+				<dt><label for="name_1">お名前<span class="must">必須</span></label></dt>
+				<dd>
+					<input type="text" name="name_1" placeholder="大阪　花子" id="name_1">
+				</dd>
+				<dt><label for="name_2">ふりがな<span class="must">必須</span></label></dt>
+				<dd>
+					<input type="text" name="name_2" placeholder="おおさか　はなこ" id="name_2">
+				</dd>
+				<dt><label for="email">メールアドレス<span class="must">必須</span></label></dt>
+				<dd>
+					<input type="email" name="email" placeholder="hanako@example.com" id="email">
+				</dd>
+				<dt><label for="tel">お電話番号<span class="must">必須</span></label></dt>
+				<dd>
+					<input type="tel" name="tel" placeholder="08087878750" id="tel">
+				</dd>
+				<dt><label for="company_name">会社名・店舗名<span class="must">必須</span></label></dt>
+				<dd>
+					<input type="text" name="company_name" placeholder="フラワーカンパニー" id="company_name">
+				</dd>
+				<dt>お問い合わせ用件<span class="must">必須</span></dt>
+				<dd class="content_1">
+					<label><input type="radio" name="content_1" value="question">ご質問・ご相談</label>
+					<label><input type="radio" name="content_1" value="order">ご注文<span class="red small">※</span></label>
+					<label><input type="radio" name="content_1" value="wedding">ウェディング</label>
+					<label><input type="radio" name="content_1" value="other">その他</label>
+				</dd>
+				<dt><label for="content_2">お問い合わせ内容</label></dt>
+				<dd><textarea name="content_2" id="content_2" placeholder="お問い合わせ内容をご記入ください。"></textarea>
+				<p class="red">※ご注文を選択された方は、下記詳細も併せてご記入ください。</p></dd>
+				<dt>ご注文商品<span class="small">※複数選択可</span></dt>
+				<dd class="item">
+					<label><input type="checkbox" name="item" value="bouquet">花束</label>
+					<label><input type="checkbox" name="item" value="arrangement">アレンジメント</label>
+					<label><input type="checkbox" name="item" value="wedding">ウェディング</label>
+					<label><input type="checkbox" name="item" value="other">その他</label>
+				</dd>
+				<dt>お渡し希望日<span class="small">※３営業日以降の日付をご記入ください。</span></dt>
+				<dd>
+					<select name="month">
+						<option value="">-</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>月
+					<select name="day">
+						<option value="">-</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select>日
+					<p class="small">※お急ぎの場合は、お電話にてご連絡をお願いします。</p>
+				</dd>
+				<dt>ご要望など</dt>
+				<dd><textarea name="request" placeholder="ご要望内容をご記入ください。"></textarea></dd>
+			</dl>
+				<input type="submit" value="送信確認">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<div class="inner">
+		<small>&copy; 2020 Florist Hana.</small>
+		</div><!--/.inner-->
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
